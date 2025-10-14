@@ -1,0 +1,39 @@
+/* RESET */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: Arial, sans-serif; background:#f5f5f5; }
+
+/* HEADER */
+header { background: #ffcc00; }
+.top-header { display:flex; justify-content:space-between; align-items:center; padding:10px 20px; }
+.logo { font-size:24px; font-weight:bold; color:#000; }
+.top-header input { width:50%; padding:8px; border-radius:4px; border:none; }
+.cart { font-weight:bold; cursor:pointer; }
+.menu { display:flex; justify-content:center; background:#ffd633; padding:10px; }
+.menu a { margin:0 15px; text-decoration:none; color:#000; font-weight:bold; }
+
+/* BANNER */
+.banner { position:relative; overflow:hidden; margin-top:10px; height:300px; }
+.banner-slide { display:none; position:absolute; width:100%; height:100%; }
+.banner-slide.active { display:block; }
+.banner-slide img { width:100%; height:100%; object-fit:cover; }
+.banner-info { position:absolute; top:50%; left:20px; transform:translateY(-50%); color:#fff; background:rgba(0,0,0,0.5); padding:20px; border-radius:10px; }
+
+/* CATEGORIAS */
+.categories { display:flex; justify-content:center; flex-wrap:wrap; margin:20px 0; gap:15px; }
+.category-card { background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); cursor:pointer; transition:0.3s; }
+.category-card:hover { transform:translateY(-5px); }
+
+/* PRODUTOS */
+main { padding:20px; }
+main h2 { margin-bottom:20px; color:#ff8c00; }
+.products-container { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:20px; }
+.product-card { background:#fff; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1); padding:15px; text-align:center; }
+.product-card img { width:100%; height:200px; object-fit:cover; border-radius:10px; }
+.product-card h3 { margin:10px 0; }
+.product-card p { font-size:14px; margin:5px 0; }
+.product-card .price { color:#ff8c00; font-weight:bold; font-size:16px; }
+.product-card button { margin-top:10px; padding:10px 15px; background:#ff8c00; border:none; border-radius:5px; color:#fff; cursor:pointer; transition:0.3s; }
+.product-card button:hover { background:#e69500; }
+
+/* FOOTER */
+footer { background:#333; color:#fff; text-align:center; padding:20px; margin-top:30px; }
