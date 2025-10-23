@@ -1,11 +1,11 @@
 // PRODUTOS
 const products = [
-    {id:1, name:"Bota Country Masculina", price:349.90, stock:10, image:""},
-    {id:2, name:"Chapéu Cowboy", price:129.90, stock:15, image:"https://i.imgur.com/64nq5Oj.jpg"},
-    {id:3, name:"Camisa Xadrez", price:89.90, stock:20, image:"https://i.imgur.com/YwGfQKl.jpg"},
-    {id:4, name:"Calça Jeans Country", price:159.90, stock:12, image:"https://i.imgur.com/5y4XqGh.jpg"},
-    {id:5, name:"Cinto de Couro", price:69.90, stock:30, image:"https://i.imgur.com/3h9PnQh.jpg"},
-    {id:6, name:"Bota Feminina Country", price:299.90, stock:8, image:"https://i.imgur.com/RfYqHnD.jpg"}
+    {id:1, name:"Chapeu ", price:349.90, stock:10, image:"pr31-70b8c5c42a68b9e1b516789136344828-1024-1024.jpg"},
+    {id:2, name:"Chapéu Country feminino (Ana Castela)", price:200.00, stock:15, image:"chapeu_country_ana_castela_mundial_americano_preto_c_strass_ref_961_4639_1_7c5957f38d1b03d2444661ffa9140023.webp"},
+    {id:3, name:"Camisa Xadrez", price:89.90, stock:20, image:"whatsapp-image-2023-10-05-at-12-40-04-ca15831c0cc14b52d016965279632445-1024-1024.jpeg"},
+    {id:4, name:"Calça Jeans Race Bull", price:190.00, stock:12, image:"images.jpeg"},
+    {id:5, name:"Cinto de Couro", price:69.90, stock:30, image:"cinto_em_couro_bovino_modelo_avestruz_cinto_02_1015_1_5734d13e6e59eeb65e6c2976b06bc274.webp"},
+    {id:6, name:"Bota texana", price:299.90, stock:8, image:"IMG_3957_800x.webp"}
 ];
 
 // RENDERIZAR PRODUTOS
